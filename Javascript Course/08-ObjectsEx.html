@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Objects</title>
+    <style>
+    </style>
+  </head>
+  <body>
+    <script>
+
+    function comparePrice(x, y){
+        if (x.price < y.price){
+          return x;
+        }
+        else {
+          return y;
+        }
+      };
+
+    
+
+    function isSameProduct(x,y){
+      if (product1.name === product2.name && product1.price === product2.price){
+        return true;
+      } else {
+        return false;
+      }
+    };
+
+    /* Here is an alternative solution that uses less code.
+    function isSameProduct(product1, product2) {
+        return (
+          product1.name === product2.name &&
+          product1.price === product2.price
+        );
+      }
+    */
+
+      const product1 = {
+        name: 'watch',
+        price: 15
+      };
+
+      const product2 = {
+        name: 'watch',
+        price: 15
+      };
+
+      console.log(isSameProduct(product1, product2));
+      
+      console.log('Good Morning'.toLowerCase());
+      console.log('Good Morning'.repeat(2));
+
+
+
+
+
+
+    </script>
+  </body> 
+</html>
+
+
+
+
