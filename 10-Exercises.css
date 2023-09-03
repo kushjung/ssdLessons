@@ -1,0 +1,44 @@
+.amznButton{
+  background-color: rgb(255,216,20);
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.uberButton1{
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  padding: 12px 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.uberButton2{
+  background-color: silver;
+  color: black;
+  border-radius: 8px;
+  border: none;
+  padding: 12px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.exButton{
+  background-color: silver;
+  color: black;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.isToggled{
+  background-color: black;
+  color: silver;
+}
